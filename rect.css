@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+}
+.rectangle{
+border: 1px solid black;
+width: 200px;
+height: 200px;
+margin: auto;
+}
+.buttons{
+padding: 20px;
+width: 200px;
+margin: auto;
+}
