@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myelement {
+            border: 1px solid #ccc;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h2>change font of HTML element in javascript</h2>
+    <div id="myelement">hello world!</div>
+    <br>
+    <button type="button" onclick="changestye()">click me</button>
+    <script>
+        function changestye() {
+            var element =Document.getelementbyid("myelement");
+element.style.color="#FF0000"
+        }
+    </script>
+</body>
+
+</html>
