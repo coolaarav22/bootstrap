@@ -14,3 +14,17 @@ padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
 }
+/*slider css */
+
+.carousel-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 300px;
+}
+
+.myslider{
+display: none;
+max-width: 100%;
+min-height: 100%;
+}
