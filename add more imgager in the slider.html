@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--sider show-->
+    <section>
+        <img src="download (1).jpg" class="myslider" style="height: 500px;">
+        <img src="download.jpg" class="myslider" style="height: 500px;">
+        <img src="istockphoto-1550071750-612x612.jpg" class="myslider" style="height: 500px;">
+    </section>
+    <script>
+// Aotematic slider show-show images every 3 sec//
+
+varmyindex=0
+carousel();
+
+function carousel(){
+var  i;
+var x = document.getElementsByClassName("mysilder")
+for(i = 0 < x.length; i++) {x [i] .style.display= "none";
+}
+myindex++;
+if(myindex > .length){myindex=1}x [myindex-1].style.display="block" setTimeout(carousel,3000)
+}
+</script>
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
