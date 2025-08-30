@@ -1,32 +1,35 @@
-.body{
-margin: 0%;
-font-family: arial;
+.body {
+    margin: 0%;
+    font-family: arial;
 }
-.topnav{
+
+.topnav {
     overflow: hidden;
     background-color: #333;
 }
+
 .topnav a {
-float: left;
-color: chocolate;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+    float: left;
+    color: chocolate;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
+
 /*slider css */
 
-.carousel-container{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 300px;
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
-.myslider{
-display: none;
-max-width: 100%;
-min-height: 100%;
+.myslider {
+    display: none;
+    max-width: 100%;
+    min-height: 100%;
 }
 
 /*section css*/
@@ -52,10 +55,10 @@ min-height: 100%;
 
 
 section {
-    
+
     padding: 50px 88px;
     background-color: #282e34;
-    color:#ddd;
+    color: #ddd;
     text-align: justify;
 }
 
@@ -70,6 +73,52 @@ section {
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
-   
+
 }
 
+/*Footer section */
+.footer-section {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cta-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1 1 250px;
+    padding: 10px;
+}
+
+.cta-item i {
+    font-size: 24px;
+    color: #f39c12;
+    
+}
+
+.cta-item h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta-item span {
+    font-size: 14px;
+    color: #ccc;
+}
+/*day and night*/
+
+.cantentimageleft{
+
+
+
+}
